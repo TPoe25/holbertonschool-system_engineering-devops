@@ -1,3 +1,2 @@
 #!/bin/bash
-grep -3 iacta
-
+head -3 iacta
