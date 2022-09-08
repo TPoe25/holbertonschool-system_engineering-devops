@@ -1,2 +1,2 @@
 #!/bin/bash
-chown [Vincent]:[Staff] /holbertonschool-system_engineering-devops/0x02-shell_redirections
+chown [Vincent]:[Staff] */ . ..
