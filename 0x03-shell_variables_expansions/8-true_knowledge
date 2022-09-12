@@ -1,6 +1,2 @@
 #!/bin/bash
-read -p "$TRUEKNOWLEDGE: " a
-read -p "128: " b
-echo $((a+b))
-c=$a+$b
-echo $c
+echo a=$((TRUEKNOWLDEGE + b))
