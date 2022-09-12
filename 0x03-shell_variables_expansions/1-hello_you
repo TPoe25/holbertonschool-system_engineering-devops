@@ -1,2 +1,2 @@
 #!/bin/bashi
-echo $STR
+echo "hello $USER"
