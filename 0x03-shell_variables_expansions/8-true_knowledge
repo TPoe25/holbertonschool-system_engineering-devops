@@ -1,2 +1,2 @@
 #!/bin/bash
-echo a=$((TRUEKNOWLDEGE + b))
+echo $$((TRUEKNOWLDEGE + b))
