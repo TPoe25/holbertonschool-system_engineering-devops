@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((TRUEKNOWLDEGE + 128)) | cat -e
+echo $a((TRUEKNOWLDEGE + 128)) | cat $a
