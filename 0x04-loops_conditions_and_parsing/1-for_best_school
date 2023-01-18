@@ -3,5 +3,5 @@
 i=1
 for i in {1..10}
 do  
-        echo "Best School" $i
+        echo "Best School" $
 done                                                                                                
