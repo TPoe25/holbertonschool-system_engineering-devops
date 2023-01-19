@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#Writing Bash script that displays time for 12 hours and 59 minutes
+x=12 y=59
+while [ $x -le 12 ]:[ $y -le 59 ]
+do 
+echo {1..12\n} {1..59\n}
+x=$(( $x + 1 ))
+done
