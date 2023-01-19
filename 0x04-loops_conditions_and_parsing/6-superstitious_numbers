@@ -3,7 +3,7 @@
 x=1
 while [ $x -le 20 ]
 do
-		case $x in
+		case "$x" in
 	4)echo -e $x"\nbad luck from China"
 		x=$(( $x + 1 ))
 		;;
