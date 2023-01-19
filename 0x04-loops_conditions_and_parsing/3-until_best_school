@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This is a until loop
+e=1
+until [ ! $e -lt 11 ]
+do
+	echo "Best School"
+e=$(( e + 1 ))
+done
