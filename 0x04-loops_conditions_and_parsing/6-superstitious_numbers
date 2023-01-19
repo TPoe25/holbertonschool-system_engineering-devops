@@ -4,13 +4,13 @@ x=1
 while [ $x -le 20 ]
 do
 		case $x in
-	4)echo -e $x "\nbad luck from China"
+	4)echo -e $x"\nbad luck from China"
 		x=$(( $x + 1 ))
 		;;
-	9)echo -e $x "\nbad luck from Japan"
+	9)echo -e $x"\nbad luck from Japan"
 		x=$(( $x + 1 ))
 		;;
-	17)echo -e $x "\nbad luck from Italy"
+	17)echo -e $x"\nbad luck from Italy"
 		x=$(( $x + 1 ))
 		;;
 esac
