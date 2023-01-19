@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#This is a while loop with case statement
+x=1
+while [ $x -le 20 ]
+case $x in
+1) [ $x -eq  4 ]
+echo "bad luck from China"
+   ;;
+2)[ $x -eq 9 ]
+echo "bad luck from Japan"
+;;
+3) [ $x -eq 17 ]
+echo "bad luck from Italy"
+;;
+*)
+echo -n
+exit 1
+esac
