@@ -6,14 +6,11 @@ do
     if [ $x -eq 4 ]
     then
         echo -e  "bad luck"
+    elif [ $x -eq 8 ] 
+    then
+	echo -e "good luck"
     else
 	echo "Best School"
-    fi
-    if [ $x -eq 8 ]
-    then
-	echo -e "good luck"	
-    else
-        echo "Best School"
     fi
 x=$(( x + 1 ))
 done
