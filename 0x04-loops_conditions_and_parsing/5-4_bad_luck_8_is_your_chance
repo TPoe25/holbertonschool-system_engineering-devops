@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#This is a while loop
+x=1
+while [ $x -le 10 ]
+do
+    if [ $x -eq 4 ]
+    then
+        echo -e  "bad luck"
+    else
+	echo "Best School"
+    fi
+    if [ $x -eq 8 ]
+    then
+	echo -e "good luck"	
+    else
+        echo "Best School"
+    fi
+x=$(( x + 1 ))
+done
