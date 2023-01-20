@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+#write a Bash script that disp lines containing bash word, allowing easily get PID of Bash process.
